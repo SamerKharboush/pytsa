@@ -259,7 +259,7 @@ class SearchAgent:
         # This is used internally to catch
         # all messages around the queried time,
         # for building and interpolating trajectories.
-        self.time_delta = 30 # in minutes
+        self.time_delta = 1440 # in minutes
 
         self.neighborhood = NeighborhoodTreeSearch(
             self.data_loader,
